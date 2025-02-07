@@ -66,7 +66,7 @@ body {
     flex-direction: column;
 }
 .botoes{
-    background-color: tan;
+    
     width: 500px;
     margin-top: 50px;
     padding: 20px; 
@@ -87,7 +87,8 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-.botao-escuro{ background-color: black;
+.botao-escuro{ 
+  background-color: black;
     padding: 12px;
     font-family: arial;
     font-weight: bold;
@@ -115,4 +116,30 @@ body {
     transform: scale(1.2); /* Faz o botão crescer 10% */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para destacar */
 
+}
+.botao-Voltar:hover{
+  background-color: red;
+    color: black;
+    border-color: black;
+    transform: scale(1.2); /* Faz o botão crescer 10% */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para destacar */
+}
+.linha{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.resumo{
+  width: 400px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial;
+  line-height: 22px;
+  margin-right: 50px;
+  text-align: justify;
+}
+.voltar{
+  color: #f8f8f8;
+  font-weight: bold;
 }
